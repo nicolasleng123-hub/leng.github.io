@@ -1,0 +1,51 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "premiere/*.ipynb"
+
+website:
+  title: "NSI1ere"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: index.qmd
+        text: "Seconde"
+      - href: premiere/index.ipynb
+        text: "Première"
+      - href: index.qmd
+        text: Terminale
+      - about.qmd
+  sidebar:
+    - title: "Seconde"
+      contents:
+        - howto.qmd
+
+    - title: "Première"
+      contents:
+        - premiere/index.ipynb
+        - premiere/variables.ipynb
+
+    - title: "Terminale"
+      contents:
+        - reference.qmd
+        # navigation items
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    include-in-header:
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/thebe@latest/lib/index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@jupyterlite/javascript-kernel@0.4.0/dist/index.js"></script>
+    include-after-body:
+      - text: |
+          <script src="/js/thebe_config.js"></script>
+          <script src="/js/thebe_init.js"></script>
+
+
+
