@@ -1,27 +1,5 @@
 [
   {
-    "objectID": "premiere/variables.html",
-    "href": "premiere/variables.html",
-    "title": "Variable",
-    "section": "",
-    "text": "De la même manière que dans votre chambre chaque objet a (normalement) une place attitrée, un ordinateur (dont le rôle peut se résumer à «manipuler très vite des données») va assigner à chaque objet une place particulière dans son espace-mémoire. Et il lui assignera un nom (choisi par l’utilisateur) afin de pouvoir accéder à cette valeur.\nNous ne rentrerons pas dans le détail du processus d’allocation-mémoire, nous retiendrons juste ceci : pour manipuler un objet, il faut qu’il déjà qu’il ait un nom. C’est par cela que nous allons commencer :\n\n\n\n\n\n\nNotePremière variable\n\n\n\nConsidérons la phrase ‘nous allons stocker le prix du spectacle dans une variable a, qui vaudra au départ 32.’\n\n\nIl y a plusieurs commentaires à faire sur une telle annonce :\n\nDans le problème que l’on cherche à modéliser, le prix du spectacle est une donnée importante, qui va peut-être évoluer (ou pas !).\nPour la manipuler plus simplement, on va la désigner par un nom, le nom de la variable (ici, le nom a est particulièrement mal choisi, voir D. Bonnes pratiques de nommage)\nComme en mathématiques, le nom de cette variable va désigner une valeur qui peut changer (varier) au cours du temps (encore une fois : ou pas).\nCette valeur est fixée au départ à 32. On dira en informatique qu’elle est initialisée à 32.\nSi cette valeur ne change pas, on dira qu’elle est constante. Cela peut paraître inutile de donner un nom à quelque chose qui ne change pas, mais cela est très utile de définir les constantes au début d’un programme.\n\n\n\n\nLa phrase précédente donnera donc lieu à la ligne Python suivante :\na = 32\n\n\n\n\n\n\nWarningAttention\n\n\n\nLe symbole = ici utilisé n’a rien à voir avec le symbole = utilisé en mathématique. On dit qu’on a affecté à a la valeur 32, et il faut se représenter mentalement cette action par l’écriture a ← 32.\n\n\nUne fois la valeur 32 stockée dans la variable a, on peut alors utiliser cette variable :\n    a = 32\n    print(a)\n    a = a + 3\n    print(a)",
-    "crumbs": [
-      "Première",
-      "Variable"
-    ]
-  },
-  {
-    "objectID": "premiere/variables.html#pourquoi-des-variables",
-    "href": "premiere/variables.html#pourquoi-des-variables",
-    "title": "Variable",
-    "section": "",
-    "text": "De la même manière que dans votre chambre chaque objet a (normalement) une place attitrée, un ordinateur (dont le rôle peut se résumer à «manipuler très vite des données») va assigner à chaque objet une place particulière dans son espace-mémoire. Et il lui assignera un nom (choisi par l’utilisateur) afin de pouvoir accéder à cette valeur.\nNous ne rentrerons pas dans le détail du processus d’allocation-mémoire, nous retiendrons juste ceci : pour manipuler un objet, il faut qu’il déjà qu’il ait un nom. C’est par cela que nous allons commencer :\n\n\n\n\n\n\nNotePremière variable\n\n\n\nConsidérons la phrase ‘nous allons stocker le prix du spectacle dans une variable a, qui vaudra au départ 32.’\n\n\nIl y a plusieurs commentaires à faire sur une telle annonce :\n\nDans le problème que l’on cherche à modéliser, le prix du spectacle est une donnée importante, qui va peut-être évoluer (ou pas !).\nPour la manipuler plus simplement, on va la désigner par un nom, le nom de la variable (ici, le nom a est particulièrement mal choisi, voir D. Bonnes pratiques de nommage)\nComme en mathématiques, le nom de cette variable va désigner une valeur qui peut changer (varier) au cours du temps (encore une fois : ou pas).\nCette valeur est fixée au départ à 32. On dira en informatique qu’elle est initialisée à 32.\nSi cette valeur ne change pas, on dira qu’elle est constante. Cela peut paraître inutile de donner un nom à quelque chose qui ne change pas, mais cela est très utile de définir les constantes au début d’un programme.\n\n\n\n\nLa phrase précédente donnera donc lieu à la ligne Python suivante :\na = 32\n\n\n\n\n\n\nWarningAttention\n\n\n\nLe symbole = ici utilisé n’a rien à voir avec le symbole = utilisé en mathématique. On dit qu’on a affecté à a la valeur 32, et il faut se représenter mentalement cette action par l’écriture a ← 32.\n\n\nUne fois la valeur 32 stockée dans la variable a, on peut alors utiliser cette variable :\n    a = 32\n    print(a)\n    a = a + 3\n    print(a)",
-    "crumbs": [
-      "Première",
-      "Variable"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NSI1ere",
@@ -36,25 +14,113 @@
     "text": "About this site"
   },
   {
-    "objectID": "premiere/index.html",
-    "href": "premiere/index.html",
+    "objectID": "premiere/intro_python/variables.html",
+    "href": "premiere/intro_python/variables.html",
+    "title": "Variable",
+    "section": "",
+    "text": "De la même manière que dans votre chambre chaque objet a (normalement) une place attitrée, un ordinateur (dont le rôle peut se résumer à «manipuler très vite des données») va assigner à chaque objet une place particulière dans son espace-mémoire. Et il lui assignera un nom (choisi par l’utilisateur) afin de pouvoir accéder à cette valeur.\nNous ne rentrerons pas dans le détail du processus d’allocation-mémoire, nous retiendrons juste ceci : pour manipuler un objet, il faut qu’il déjà qu’il ait un nom. C’est par cela que nous allons commencer :\n\n\n\n\n\n\nNotePremière variable\n\n\n\nConsidérons la phrase ‘nous allons stocker le prix du spectacle dans une variable a, qui vaudra au départ 32.’\n\n\nIl y a plusieurs commentaires à faire sur une telle annonce :\n\nDans le problème que l’on cherche à modéliser, le prix du spectacle est une donnée importante, qui va peut-être évoluer (ou pas !).\nPour la manipuler plus simplement, on va la désigner par un nom, le nom de la variable (ici, le nom a est particulièrement mal choisi, voir D. Bonnes pratiques de nommage)\nComme en mathématiques, le nom de cette variable va désigner une valeur qui peut changer (varier) au cours du temps (encore une fois : ou pas).\nCette valeur est fixée au départ à 32. On dira en informatique qu’elle est initialisée à 32.\nSi cette valeur ne change pas, on dira qu’elle est constante. Cela peut paraître inutile de donner un nom à quelque chose qui ne change pas, mais cela est très utile de définir les constantes au début d’un programme.\n\n\n\n\nLa phrase précédente donnera donc lieu à la ligne Python suivante :\na = 32\n\n\n\n\n\n\nWarningAttention\n\n\n\nLe symbole = ici utilisé n’a rien à voir avec le symbole = utilisé en mathématique. On dit qu’on a affecté à a la valeur 32, et il faut se représenter mentalement cette action par l’écriture a ← 32.\n\n\nUne fois la valeur 32 stockée dans la variable a, on peut alors utiliser cette variable :\n    a = 32\n    print(a)\n    a = a + 3\n    print(a)",
+    "crumbs": [
+      "Variable"
+    ]
+  },
+  {
+    "objectID": "premiere/intro_python/variables.html#pourquoi-des-variables",
+    "href": "premiere/intro_python/variables.html#pourquoi-des-variables",
+    "title": "Variable",
+    "section": "",
+    "text": "De la même manière que dans votre chambre chaque objet a (normalement) une place attitrée, un ordinateur (dont le rôle peut se résumer à «manipuler très vite des données») va assigner à chaque objet une place particulière dans son espace-mémoire. Et il lui assignera un nom (choisi par l’utilisateur) afin de pouvoir accéder à cette valeur.\nNous ne rentrerons pas dans le détail du processus d’allocation-mémoire, nous retiendrons juste ceci : pour manipuler un objet, il faut qu’il déjà qu’il ait un nom. C’est par cela que nous allons commencer :\n\n\n\n\n\n\nNotePremière variable\n\n\n\nConsidérons la phrase ‘nous allons stocker le prix du spectacle dans une variable a, qui vaudra au départ 32.’\n\n\nIl y a plusieurs commentaires à faire sur une telle annonce :\n\nDans le problème que l’on cherche à modéliser, le prix du spectacle est une donnée importante, qui va peut-être évoluer (ou pas !).\nPour la manipuler plus simplement, on va la désigner par un nom, le nom de la variable (ici, le nom a est particulièrement mal choisi, voir D. Bonnes pratiques de nommage)\nComme en mathématiques, le nom de cette variable va désigner une valeur qui peut changer (varier) au cours du temps (encore une fois : ou pas).\nCette valeur est fixée au départ à 32. On dira en informatique qu’elle est initialisée à 32.\nSi cette valeur ne change pas, on dira qu’elle est constante. Cela peut paraître inutile de donner un nom à quelque chose qui ne change pas, mais cela est très utile de définir les constantes au début d’un programme.\n\n\n\n\nLa phrase précédente donnera donc lieu à la ligne Python suivante :\na = 32\n\n\n\n\n\n\nWarningAttention\n\n\n\nLe symbole = ici utilisé n’a rien à voir avec le symbole = utilisé en mathématique. On dit qu’on a affecté à a la valeur 32, et il faut se représenter mentalement cette action par l’écriture a ← 32.\n\n\nUne fois la valeur 32 stockée dans la variable a, on peut alors utiliser cette variable :\n    a = 32\n    print(a)\n    a = a + 3\n    print(a)",
+    "crumbs": [
+      "Variable"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/index.html",
+    "href": "premiere/ihm/index.html",
+    "title": "Index",
+    "section": "",
+    "text": "Index",
+    "crumbs": [
+      "Index"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html",
+    "href": "premiere/ihm/fiche.html",
+    "title": "Fiche de révision",
+    "section": "",
+    "text": "HTML sert à créer la structure et le contenu d’une page web.\nStructure de base :\n&lt;!DOCTYPE html&gt;                 // Indique que le fichier est en HTML.\n&lt;html&gt;\n    &lt;head&gt;                      // Ouvre la balise des métadonnées.\n\n        &lt;title&gt;Ma page&lt;/title&gt;\n\n    &lt;/head&gt;\n    &lt;body&gt; // Ouvre la balise du corps du site (les éléments affichables).\n\n        &lt;h1&gt;Mon titre&lt;/h1&gt;\n        &lt;p&gt;Mon paragraphe.&lt;/p&gt;\n\n    &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "Fiche de révision"
+    ]
+  },
+  {
+    "objectID": "premiere/intro_python/index.html",
+    "href": "premiere/intro_python/index.html",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
     "crumbs": [
-      "Première",
       "Quarto Basics"
     ]
   },
   {
-    "objectID": "premiere/index.html#polar-axis",
-    "href": "premiere/index.html#polar-axis",
+    "objectID": "premiere/intro_python/index.html#polar-axis",
+    "href": "premiere/intro_python/index.html#polar-axis",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis",
     "crumbs": [
-      "Première",
       "Quarto Basics"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html#html-la-structure-dune-page",
+    "href": "premiere/ihm/fiche.html#html-la-structure-dune-page",
+    "title": "Fiche de révision",
+    "section": "",
+    "text": "HTML sert à créer la structure et le contenu d’une page web.\nStructure de base :\n&lt;!DOCTYPE html&gt;                 // Indique que le fichier est en HTML.\n&lt;html&gt;\n    &lt;head&gt;                      // Ouvre la balise des métadonnées.\n\n        &lt;title&gt;Ma page&lt;/title&gt;\n\n    &lt;/head&gt;\n    &lt;body&gt; // Ouvre la balise du corps du site (les éléments affichables).\n\n        &lt;h1&gt;Mon titre&lt;/h1&gt;\n        &lt;p&gt;Mon paragraphe.&lt;/p&gt;\n\n    &lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "Fiche de révision"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html#html-les-balises",
+    "href": "premiere/ihm/fiche.html#html-les-balises",
+    "title": "Fiche de révision",
+    "section": "HTML : les balises",
+    "text": "HTML : les balises\nLes balises sont des éléments qui représentent un conteneur dont les attributs peuvent être modifiés. La balise générique est appelée :\n&lt;div&gt;&lt;/div&gt;\nElle représente un conteneur vide que l’on peut modifier comme bon nous semble. ::: {.callout-warning} ## Attention Les balises doivent toutes être fermées de cette manière : &lt;nom_balise&gt; &lt;/nom_balise&gt; de manière à toujours fermer le conteneur. Il existe des exceptions comme les images. :::\nPour plus de facilité, il existe des balises déjà prêtes comme :\n\n\n\nBalise\nUtilité\n\n\n\n\n&lt;h1&gt; à &lt;h6&gt;\nTitres\n\n\n&lt;p&gt;\nParagraphe\n\n\n&lt;a&gt;\nLien\n\n\n&lt;img&gt;\nImage\n\n\n&lt;ul&gt;\nListe à puces\n\n\n&lt;ol&gt;\nListe numérotée\n\n\n&lt;li&gt;\nÉlément d’une liste\n\n\n&lt;strong&gt;\nTexte important / gras\n\n\n&lt;em&gt;\nTexte mis en valeur / italique\n\n\n&lt;div&gt;\nBloc générique\n\n\n&lt;table&gt;\nGrille d’éléments\n\n\n\n\nSyntaxe\nLes liens\n&lt;a href=\"https://example.com\"&gt;Clique ici&lt;/a&gt;\n\nhref indique la destination du lien.\ntout ce qui est dans la balise, si l’on clique dessus, nous redirigera.\n\nLes images\n&lt;img src=\"image.jpg\" alt=\"Description de l'image\"&gt;\n\nsrc → chemin de l’image\nalt → description de l’image\n\nLes listes\n&lt;ul&gt;\n    &lt;li&gt; élément 1 &lt;/li&gt;\n    &lt;li&gt; élément 2 &lt;/li&gt;\n&lt;/ul&gt;\n\n2 types de liste\n\nLes tables\n&lt;table&gt;\n    &lt;tr&gt;                          // table row \n        &lt;th&gt;titre colonne 1&lt;/th&gt;   // table header\n        &lt;th&gt;titre colonne 2&lt;/th&gt;\n    &lt;/tr&gt;\n    &lt;tr&gt;\n        &lt;td&gt;élément colonne 1&lt;/td&gt;  // table data\n        &lt;td&gt;élément colonne 2&lt;/td&gt;\n    &lt;/tr&gt;\n&lt;/table&gt;",
+    "crumbs": [
+      "Fiche de révision"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html#css-mettre-en-forme",
+    "href": "premiere/ihm/fiche.html#css-mettre-en-forme",
+    "title": "Fiche de révision",
+    "section": "CSS : mettre en forme",
+    "text": "CSS : mettre en forme\nCSS sert à modifier l’apparence d’une page HTML : couleurs, tailles, positions, etc. Relier un fichier CSS\nDans le\n\n(métadonnées) :\n&lt;link rel=\"stylesheet\" href=\"style.css\"&gt;\nPuis dans style.css :\np {\n    color: blue;\n    font-size: 20px;\n}\nSyntaxe :\nsélecteur {\n    propriété: valeur;\n}\n\nLes classes et les IDs\nClasse :\nHTML\n&lt;p class=\"important\"&gt;Bonjour&lt;/p&gt;\nCSS\n.important {\n    color: red;\n}\nID :\nHTML\n&lt;p id=\"important\"&gt;Bonjour&lt;/p&gt;\nCSS\n#important {\n    color: red;\n}",
+    "crumbs": [
+      "Fiche de révision"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html#javascript",
+    "href": "premiere/ihm/fiche.html#javascript",
+    "title": "Fiche de révision — Site",
+    "section": "JavaScript",
+    "text": "JavaScript\nJavaScript sert à ajouter de l’interactivité au site. Relier un fichier JavaScript\nDans le\n\n(métadonnées) :\n&lt;script src=\"script.js\"&gt;&lt;/script&gt;\nExemple :\nwindow.addEventListener('DOMContentLoaded', () =&gt; {\n  \n});\n\nle fichier JS et le HTML sont séparés et peuvent être chargés l’un avant l’autre ; la ligne ci-dessus exécute le code après que la page soit chargée.\n\nlet valeur = 0;\nconst compteur_like = document.getElementById(\"compteur_like\");\nconst bouton_like = document.getElementById(\"incrementer_like\");\n\nla fonction document.getElementById() va trouver la balise avec l’id correspondant et l’assigner à la variable.\n\nbouton_like.addEventListener(\"click\", () =&gt; {\n    //code\n});\n\non ajoute à la variable bouton_like (la balise avec l’id incrementer_like) un événement à chaque clic qui exécutera le code.\n\nvaleur++;\ncompteur_like.textContent = valeur;\n\nà chaque clic, on ajoute donc 1 à valeur et on écrit dans compteur_like (la balise avec l’id compteur_like) la valeur.",
+    "crumbs": [
+      "Fiche de révision — Site"
+    ]
+  },
+  {
+    "objectID": "premiere/ihm/fiche.html#javascript-pour-aller-plus-loin",
+    "href": "premiere/ihm/fiche.html#javascript-pour-aller-plus-loin",
+    "title": "Fiche de révision",
+    "section": "JavaScript (pour aller plus loin)",
+    "text": "JavaScript (pour aller plus loin)\nJavaScript sert à ajouter de l’interactivité au site. Relier un fichier JavaScript\nDans le\n\n(métadonnées) :\n&lt;script src=\"script.js\"&gt;&lt;/script&gt;\nExemple :\nwindow.addEventListener('DOMContentLoaded', () =&gt; {\n  \n});\n\nle fichier JS et le HTML sont séparés et peuvent être chargés l’un avant l’autre ; la ligne ci-dessus exécute le code après que la page soit chargée.\n\nlet valeur = 0;\nconst compteur_like = document.getElementById(\"compteur_like\");\nconst bouton_like = document.getElementById(\"incrementer_like\");\n\nla fonction document.getElementById() va trouver la balise avec l’id correspondant et l’assigner à la variable.\n\nbouton_like.addEventListener(\"click\", () =&gt; {\n    //code\n});\n\non ajoute à la variable bouton_like (la balise avec l’id incrementer_like) un événement à chaque clic qui exécutera le code.\n\nvaleur++;\ncompteur_like.textContent = valeur;\n\nà chaque clic, on ajoute donc 1 à valeur et on écrit dans compteur_like (la balise avec l’id compteur_like) la valeur.",
+    "crumbs": [
+      "Fiche de révision"
     ]
   }
 ]

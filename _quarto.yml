@@ -2,35 +2,33 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "premiere/*.ipynb"
+    - "premiere/*/*.ipynb"
 
 website:
-  title: "NSI1ere"
+  title: "NSI"
   navbar:
     left:
-      - href: index.qmd
-        text: "Home"
-      - href: index.qmd
-        text: "Seconde"
-      - href: premiere/index.ipynb
-        text: "Première"
-      - href: index.qmd
-        text: Terminale
-      - about.qmd
+      - text: "Première"
+        menu:
+          - text: "IHM"
+            href: premiere/ihm/index.ipynb
+          - text: "Intro python"
+            href: premiere/intro_python/index.ipynb
+
+
   sidebar:
-    - title: "Seconde"
-      contents:
-        - howto.qmd
 
-    - title: "Première"
+    - title: "IHM"
       contents:
-        - premiere/index.ipynb
-        - premiere/variables.ipynb
+        - premiere/ihm/index.ipynb
+        - premiere/ihm/fiche.ipynb
+    
+    - title: "Intro python"
+      contents:
+        - premiere/intro_python/index.ipynb
+        - premiere/intro_python/variables.ipynb
 
-    - title: "Terminale"
-      contents:
-        - reference.qmd
-        # navigation items
+
 format:
   html:
     theme:
