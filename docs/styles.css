@@ -1,1 +1,59 @@
 /* css styles */
+
+.python-cell-wrapper {
+	margin: 1rem 0;
+}
+
+.python-editor {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: var(--bs-font-monospace, monospace);
+	line-height: 1.5;
+}
+
+.python-editor .cm-editor {
+	min-height: 5rem;
+	border: 1px solid #ced4da;
+}
+
+.python-editor .cm-scroller {
+	min-height: 5rem;
+}
+
+.python-run-button {
+	margin: 0.5rem 0;
+	padding: 0.35rem 0.75rem;
+	border: 1px solid #6c757d;
+	border-radius: 4px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.python-reset-button {
+	margin: 0.5rem 0;
+	padding: 0.35rem 0.75rem;
+	border: 1px solid #b02a37;
+	border-radius: 4px;
+	background: #fff;
+	color: #b02a37;
+	cursor: pointer;
+}
+
+.python-run-button:disabled {
+	cursor: wait;
+	opacity: 0.7;
+}
+
+.python-reset-button:disabled {
+	cursor: wait;
+	opacity: 0.7;
+}
+
+.python-output {
+	min-height: 1.5rem;
+	padding: 0.75rem;
+	border-left: 3px solid #6c757d;
+	background: #f8f9fa;
+	white-space: pre-wrap;
+}
